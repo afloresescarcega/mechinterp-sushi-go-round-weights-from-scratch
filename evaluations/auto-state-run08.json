@@ -1,0 +1,1 @@
+{"inventory": {"rice": 0, "nori": 5, "roe": 2}, "pending": [], "deliveries": [], "made": 15, "previous_orders": [{"seat": 3, "dish": "gunkan", "urgency": 0.6, "counts": [337, 56, 46], "covered": 0}, {"seat": 5, "dish": "onigiri", "urgency": 0.4, "counts": [107, 0, 298], "covered": 0}]}

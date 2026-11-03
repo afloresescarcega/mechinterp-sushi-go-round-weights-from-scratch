@@ -1,0 +1,10 @@
+{
+  "kind": "live_game_assisted_observations",
+  "url": "https://www.crazygames.com/game/sushi-go-round",
+  "day": 1,
+  "target": 800,
+  "last_observed_cash": 700,
+  "purchases": {"roe":200,"rice":100,"nori":100},
+  "weights_changed_mid_run": true,
+  "notes": ["Screenshot orders manually transcribed by assistant; Python ranker selects logged actions.","Restocking initially manual; subsequent refills selected by ranker.","Early overlapping recipe clicks produced a bad dish.","Raised clears_seat 3 to 15 and refill_value 2 to 20 by direct writes.","Not an autonomous pixel model; no training performed."]
+}

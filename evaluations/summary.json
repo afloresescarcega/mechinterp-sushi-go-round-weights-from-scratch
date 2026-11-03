@@ -1,0 +1,9 @@
+{
+  "training_used": false,
+  "day_1_pass_verified": false,
+  "attempts": 8,
+  "best_observed_cash": 940,
+  "best_cash_run_result": "failed",
+  "primary_failure": "Reputation depleted; perception and inventory tracking remain unreliable.",
+  "assistance": "First two runs used transcribed observations. Later runs used pixel features; some mid-run adapter repairs and final observation corrections were manual."
+}

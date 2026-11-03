@@ -1,0 +1,21 @@
+{
+  "kind": "live_game_assisted_observations",
+  "url": "https://www.crazygames.com/game/sushi-go-round",
+  "day": 1,
+  "target": 800,
+  "last_observed_cash": 800,
+  "purchases": {
+    "roe": 200
+  },
+  "weights_changed_mid_run": false,
+  "perception": "Assistant transcribed visible screenshots; 11-weight Python ranker selected logged gameplay actions.",
+  "completion_screen_verified": true,
+  "notes": [
+    "No training or gradient optimization.",
+    "Fresh start with revised weights.",
+    "Mat allowed to reopen between recipes.",
+    "Used all 10 starting rice and nori; no rice or nori purchases."
+  ],
+  "result": "failed",
+  "inferred_reason": "reputation depleted despite meeting cash goal"
+}

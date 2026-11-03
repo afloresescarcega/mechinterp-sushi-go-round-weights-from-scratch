@@ -1,0 +1,70 @@
+{
+  "kind": "synthetic_decision_probes",
+  "real_game_evaluated": false,
+  "results": {
+    "weights.v0.json": [
+      {
+        "probe": "serve_order",
+        "expected": "make",
+        "actual": "make",
+        "passed": true
+      },
+      {
+        "probe": "avoid_duplicate",
+        "expected": "wait",
+        "actual": "make",
+        "passed": false
+      },
+      {
+        "probe": "clear_seat",
+        "expected": "clear",
+        "actual": "clear",
+        "passed": true
+      },
+      {
+        "probe": "urgent_order_before_clear",
+        "expected": "make",
+        "actual": "make",
+        "passed": true
+      },
+      {
+        "probe": "avoid_unaffordable",
+        "expected": "wait",
+        "actual": "wait",
+        "passed": true
+      }
+    ],
+    "weights.json": [
+      {
+        "probe": "serve_order",
+        "expected": "make",
+        "actual": "make",
+        "passed": true
+      },
+      {
+        "probe": "avoid_duplicate",
+        "expected": "wait",
+        "actual": "wait",
+        "passed": true
+      },
+      {
+        "probe": "clear_seat",
+        "expected": "clear",
+        "actual": "clear",
+        "passed": true
+      },
+      {
+        "probe": "urgent_order_before_clear",
+        "expected": "make",
+        "actual": "make",
+        "passed": true
+      },
+      {
+        "probe": "avoid_unaffordable",
+        "expected": "wait",
+        "actual": "wait",
+        "passed": true
+      }
+    ]
+  }
+}

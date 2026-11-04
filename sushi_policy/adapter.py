@@ -13,7 +13,7 @@ def candidates(state):
     cs = [{'action':'wait', 'features':{}}]
     for order in state.get('orders',[]):
         recipe = RECIPES[order['dish']]
-        legal = all(state['inventory'].get(k,0)>=v for k,v in recipe.items())
+        legal = not order.get('covered',False) and all(state['inventory'].get(k,0)>=v for k,v in recipe.items())
         cs.append({'action':'make','dish':order['dish'],'legal':legal,
           'clicks':[POINTS[k] for k,v in recipe.items() for _ in range(v)]+[POINTS['roll']],
           'features':{'orders_served':1,'urgency':order.get('urgency',0),

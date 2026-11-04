@@ -1,0 +1,21 @@
+{
+  "parameters": 69121,
+  "architecture": [
+    11,
+    256,
+    256,
+    1
+  ],
+  "seed": 42,
+  "training": "Adam on 8192 synthetic teacher examples; 3000 minibatches",
+  "pretrained_weights": false,
+  "live_attempts": 2,
+  "day_1_pass_verified": true,
+  "successful_attempt": 2,
+  "money_earned": 1140,
+  "customers_served": 23,
+  "customers_lost": 2,
+  "customers_unhappy": 4,
+  "evidence": "moderate-day1-win.png",
+  "assistance": "Host browser-tool execution; memory/cooldown revised between attempts; no manual recipe decisions in passing attempt"
+}
